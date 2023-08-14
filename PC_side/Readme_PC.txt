@@ -1,0 +1,1 @@
+main.py - One file which contains all the functions of the PC side calcuations and GUI. Defines the PC side in the connection to the MCU.  
