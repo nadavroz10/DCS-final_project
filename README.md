@@ -25,8 +25,11 @@ The system can handle up to 3 independent scripts. The scripts are saved in the 
     5.clear_lcd - clear_lcd.
  	
     6.servo_deg p- Point the Ultrasonic sensor to degree p and show the degree and distance (dynamically) onto PC screen.
+ 	
     7.servo_scan l,r -  Scan area between left l angle to right r angle (once) and show
+ 	
     8.the degree and distance (dynamically) onto PC screen.
+ 	
     9.sleep - Set the MCU into sleep mode.
 
 
