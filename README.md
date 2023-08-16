@@ -14,12 +14,17 @@ Entering calibration mode is made by pressing Key0 on the MSP430 side. The calib
 -	Scrip mode:
 The system can handle up to 3 independent scripts. The scripts are saved in the microcontroller’s Flash memory and hence  users don’t need to send the same scripts every time they use the system. Each script defined by a text file and contains a combination of the following commands (up to 10 commands in a script):
 
-    1.Inc_ldc X  - counting from 0 to X with delay D is displayed on the LCD.\n
-    2.dec_lcd X - counting from X to 0 with delay D is displayed on the LCD.\n 
-    3.Rra_lcd - Rotate right onto LCD from pixel index 0 to pixel index 31 a single char x with delay d.\n
-    4.Set_delay - Set the delay d value ( units of 10ms ).\n
+    1.Inc_ldc X  - counting from 0 to X with delay D is displayed on the LCD.
+ 	
+    2.dec_lcd X - counting from X to 0 with delay D is displayed on the LCD.
+    
+    3.Rra_lcd - Rotate right onto LCD from pixel index 0 to pixel index 31 a single char x with delay d.
+ 	
+    4.Set_delay - Set the delay d value ( units of 10ms ).
+ 	
     5.clear_lcd - clear_lcd.
-    6.servo_deg p- Point the Ultrasonic sensor to degree p and show the degree and distance (dynamically) onto PC screen.\n
+ 	
+    6.servo_deg p- Point the Ultrasonic sensor to degree p and show the degree and distance (dynamically) onto PC screen.
     7.servo_scan l,r -  Scan area between left l angle to right r angle (once) and show
     8.the degree and distance (dynamically) onto PC screen.
     9.sleep - Set the MCU into sleep mode.
