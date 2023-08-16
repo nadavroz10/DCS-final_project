@@ -11,7 +11,7 @@ Here the user selects a certain degree for the Servo motor. After the Servo turn
 This operating mode is like the Objects detector Radar. The difference is that here the system detects light sources instead of dark objects. Here the scan is also 180 degrees but the distances are in range 5 – 50 cm. The distance determination is made according to the light strength detected by the LDR sensors.  For better accuracy, users should calibrate the system when arriving to a new light environment or using a new kind of light sources.
 Entering calibration mode is made by pressing Key0 on the MSP430 side. The calibration is made by performing 10 samples. Each sample is made by putting the light source in the next distance and pressing on Key0. The required calibration distances are from 5 cm to 10 cm in steps of 5 cm.
 
--	Scrip mode:
+-	Script mode:
 The system can handle up to 3 independent scripts. The scripts are saved in the microcontroller’s Flash memory and hence  users don’t need to send the same scripts every time they use the system. Each script defined by a text file and contains a combination of the following commands (up to 10 commands in a script):
 
     1.Inc_ldc X  - counting from 0 to X with delay D is displayed on the LCD.
