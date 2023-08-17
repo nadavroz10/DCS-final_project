@@ -1,4 +1,4 @@
-# finalProjectDigitalC
+# Final Project DCS
 This project implements a system that includes a client-side (PC) and a server (MSP430 microcontroller). The PC side includes a GUI for the menu and for the graphical visualization of the system’s data. The server side includes a Servo motor 5-volt engine, an Ultra-Sonic sensor, and two LDR sensors which are connected to the microcontroller.  The communication between both sides is made with UART.
 The system supports the following 4 independent operating modes:
 ## Objects detector Radar:
